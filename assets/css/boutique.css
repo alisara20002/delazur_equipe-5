@@ -1,0 +1,6 @@
+header li a.active {
+    border-color: transparent;
+    color: #d679a6;
+    font-weight: bold;
+    pointer-events: none;
+}
