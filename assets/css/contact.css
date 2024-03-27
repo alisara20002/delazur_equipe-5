@@ -116,7 +116,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-/* Form style 01*/
+
 .field1 {
     border-color: #D47E98;
     border-style: solid;
@@ -142,7 +142,6 @@ input[type=number]::-webkit-inner-spin-button {
     opacity: 1;
 }
 
-/* Form style 02*/
 .field2{
     display: flex;
     flex-direction: column;
@@ -180,7 +179,6 @@ select{
     padding: 15px;
 }
 
-/* Form style 03*/
 .field3>div{
     display: flex;
     flex-direction: column;
@@ -251,7 +249,6 @@ select{
     margin-top: 60px;
 }
 
-/* Form style 04*/
 .field4{
     border-color: #D47E98;
     border-style: solid;
@@ -261,7 +258,6 @@ select{
     padding-left: 60px;
 } 
 
-/* Fieldchek*/
 #boite1, #boite2, #boite3{
     width:95%;
     align-self: center;
@@ -289,7 +285,6 @@ select{
     height: 20px;
 }
 
-/* Form style 05*/
 .field5{
     border-style: none;
     border: none;
@@ -401,7 +396,6 @@ legend{
     }
 }
 
-/* Formstyle 01 - Ajout Rémi*/
 @media screen and (min-width: 800px) {
     .field1{
         display: flex;
@@ -409,31 +403,31 @@ legend{
         padding-right: 20px;
         padding-left: 50px;
     }
-    #divChild01{
+    #div01{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-top: 50px;
     } 
-    #divChild01 div{
+    #div01 div{
         width: 42%
     }
-    #divChild02{
+    #div02{
         width: 85%;
     } 
-    #divChild03{
+    #div03{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     } 
-    #divChild03 div{
+    #div03 div{
         width: 42%
     }
-    #divChild04{
+    #div04{
         width: 85%;
         padding-bottom: 30px;
     }
-/* Formstyle 02 - ajout Rémi  */
+
     .field2 {
         flex-direction: row;
         position:static;
@@ -448,7 +442,6 @@ legend{
         padding: 10px;
     }
 
-/* Formstyle 03 */
     .field3{
         display: flex;
         flex-direction: column;
@@ -571,7 +564,6 @@ legend{
         height:140px;
     }
 
-/* Formstyle 04 */
 .field4{
     flex-direction: row;
     justify-content: space-between;
@@ -583,7 +575,6 @@ legend{
         padding-right: 220px;
     }
 
-/* Formstyle 05 */
     .field5{
         display: flex;
         flex-direction: column;

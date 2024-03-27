@@ -13,7 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Damion&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="../css/app.css">
 </head>
 
 <body>
@@ -33,10 +33,9 @@
     </header>
     <main>
         <form action="resultat.html" autocomplete name="delazure" method="GET" id="nameform">
-            <!--information générales-->
             <fieldset class="field1">
                 <legend>Information générales</legend>
-                <div id="divChild01">
+                <div id="div01">
                     <div>
                         <!--Prénom-->
                         <label for="username">Prénom</label>
@@ -48,7 +47,7 @@
                         <input type="text" id="nomdefamille" name="name" requiredminlength="2" maxlength="20" size="10">
                     </div>
                 </div>
-                <div id="divChild02">
+                <div id="div02">
                     <!--Addresse courriel-->
                     <div>
                         <label for="email">Adresse courriel</label>
@@ -56,19 +55,19 @@
 
                     </div>
                 </div>
-                <div id="divChild03">
+                <div id="div03">
                     <div>
                         <!--Date de naissance-->
                         <label for="date">Date de Naissance</label>
                         <input type="date" name="anniversaire" value="yyyy-mm-dd" required>
                     </div>
                     <div>
-                        <!--Ton Age-->
-                        <label for="age">Et ton âge</label>
+                        <!--Age-->
+                        <label for="age">Et ton âge?</label>
                         <input type="number" id="age" name="age" min="01" max="99">
                     </div>
                 </div>
-                <div id="divChild04">
+                <div id="div04">
                     <!--Numéro de téléphone-->
                     <label for="phone">Numéro de téléphone</label>
                     <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
@@ -118,28 +117,27 @@
                         pattern="^(^[0-9]{5}|^[a-zA-Z]{1}[0-9]{1}[a-zA-Z]{1}[0-9]{1}[a-zA-Z]{1}[0-9]{1}|[0-9]{5}[-][0-9]{4}|[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9])$*">
                 </div>
             </fieldset>
-            <!--autres-->
             <fieldset class="field3">
                 <div id="boite1">
                     <div class="parentgroup1">
-                        <!--couleur pref-->
+                        <!--couleur-->
                         <div class="childgroup1">
                             <label for="body">Votre couleur préférée?</label>
                             <input type="color" id="colorsquare" name="body" value="#000000">
                         </div>
-                        <!--image pref-->
+                        <!--image-->
                         <div class="childgroup1">
                             <label for="filefield">Vos Images préférées?</label>
                             <input type="file" name="filefield" multiple="multiple" accept="image/png, image/jpeg">
                         </div>
                     </div>
                     <div class="parentgroup2">
-                        <!--mois pref-->
+                        <!--mois-->
                         <div class="childgroup2">
                             <label for="fave-month">Votre mois préféré? De quelle année?</label>
                             <input id="fave-month" type="month" name="fave-month" value="yyyy-dd">
                         </div>
-                        <!--semaine pref-->
+                        <!--semaine-->
                         <div class="childgroup2">
                             <label for="week">Votre semaine préférée de tous les temps?</label>
                             <input type="week" name="week" id="camp-week" value="yyyy-W01">
@@ -153,7 +151,7 @@
                             <label class="labelspace" for="url">Un site que nous devons découvrir?</label>
                             <input type="url" name="url" id="url" pattern="https://.*">
                         </div>
-                        <!--slider without label-->
+                        <!--slider-->
                         <div class="childgroup3">
                             <label for="volume">Quelle note lui-donnez-vous?</label>
                             <div id="range">
@@ -192,7 +190,7 @@
                     </div>
                 </div>
             </fieldset>
-            <!--votre membre du groupe-->
+            <!--membre du groupe-->
             <fieldset class="field4">
                 <legend>Votre membre du groupe préféré?</legend>
                 <div>
