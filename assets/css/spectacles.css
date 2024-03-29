@@ -1,0 +1,73 @@
+.spectacles-main {
+	padding: 50px;
+	background-color: #00000080;
+}
+
+.spectacles-h1 {
+	color: #d679a6;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	font-size: 6rem;
+	letter-spacing: 1rem;
+}
+
+.spectacles-compteur {
+	color: #eebf53;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	gap: 10px;
+	font-weight: bold;
+}
+
+#compteur-spectacles-aimes {
+	align-self: flex-end;
+}
+
+.spectacles-compteur-fleche {
+	color: white;
+}
+
+.case-spectacle {
+	display: flex;
+	border: solid 1px #d679a6;
+	padding: 30px;
+	background-color: #eebf5350;
+	justify-content: space-between;
+}
+
+.case-spectacle-colonne {
+	display: flex;
+	flex-direction: column;
+}
+
+.case-spectacle h2, .case-spectacle h3 {
+	margin: 0 0 5px 0;
+}
+
+.case-spectacle-bouton {
+	display: block;
+	background-color: #d679a6;
+	border: solid 1px #eebf53;
+	color: black;
+	width: 140px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.case-spectacle-coeur {
+	color: #d679a6;
+	font-size: 3rem;
+	margin: 10px;
+	text-align: center;
+	align-self: center;
+}
+
+@media screen and (min-width: 1200px) {
+	.case-spectacle-bouton {
+		width: 160px;
+	}
+}
