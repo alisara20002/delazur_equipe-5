@@ -1,0 +1,565 @@
+legend {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #d679a6;
+    text-align: center;
+    font-family: 'Damion', serif;
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    padding-top: 75px;
+    margin: 0;
+}
+
+form {
+    background-color: #f5c555;
+    margin: 25px;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field01 {
+    border: 0.5rem solid #d47e98;
+}
+
+.field01 div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.field01 input {
+    background-color: #f5c555;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 85%;
+}
+
+.field01 input,
+label {
+    margin-top: 30px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.field02 {
+    background-color: #d9967a;
+    border: 0.5rem solid #d47e98;
+    width: auto;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.field02 div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 20px;
+
+}
+
+.field02 input {
+    background-color: #D9967A;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.field02 label {
+    padding-bottom: 10px;
+}
+
+select {
+    background-color: #D9967A;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 85%;
+    padding: 15px;
+}
+
+.field03>div {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.child01,
+.child02,
+.child03 {
+    margin-bottom: 20px;
+}
+
+.child01 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.parent02 {
+    width: 90%;
+}
+
+.field03 {
+    border-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field03 input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #f5c555;
+    width: 90%;
+
+    margin-top: 20px;
+}
+
+#site {
+    width: 87%;
+}
+
+.child03>#range {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 0px;
+    padding-bottom: 10px;
+    width: 93%;
+}
+
+.child04 {
+    width: 95%
+}
+
+#volume {
+    border-bottom: none;
+}
+
+#colorsquare {
+    width: 70px;
+    height: 70px;
+    border-bottom: none;
+    margin: 10px;
+}
+
+.field03 label {
+    margin-bottom: 10px;
+}
+
+.labelspace {
+    margin-top: 60px;
+}
+
+.field04 {
+    border-color: #D47E98;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 60px;
+}
+
+#boite01,
+#boite02,
+#boite03 {
+    width: 95%;
+    align-self: center;
+}
+
+#boite03 {
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#boite01,
+#boite02 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+#boite03 {
+    margin-top: 30px;
+}
+
+#boite03 input {
+    height: 30px;
+}
+
+.child05 {
+    height: 20px;
+}
+
+.field05 {
+    border-style: none;
+    border: none;
+    margin-top: 50px;
+}
+
+.field05 input {
+    background-color: #f5c555;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 60px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+/* Section pour le bouton range */
+input[type=range]::-webkit-slider-runnable-track {
+    height: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #D779A6;
+    background: #D779A6;
+    border-radius: 10px;
+    border: 6px solid #D779A6;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 2px solid #D779A6;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background: #F5C555;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -16.5px;
+}
+
+input[type="range"]::-moz-range-track {
+    height: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #D779A6;
+    background: #D779A6;
+    border-radius: 10px;
+    border: 6px solid #D779A6;
+}
+
+input[type="range"]::-moz-range-thumb {
+    border: 2px solid #D779A6;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background: #F5C555;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -16.5px;
+}
+
+/* Bouton*/
+#buttons_container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+#buttons_container button {
+    background-color: #F5C555;
+    height: 25px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#buttons_container button:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+
+    h1 {
+        padding: 0;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .labelspace {
+        margin-top: 34px;
+    }
+
+    #site {
+        width: 45%;
+    }
+
+    #range {
+        align-items: center;
+        display: flex;
+        width: 150%;
+    }
+
+    #dr_h {
+        padding-right: 220px;
+    }
+
+    #buttons_container {
+        padding-right: 450px;
+        padding-left: 450px;
+    }
+
+    #checkbox {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+    .field01 {
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+
+    .field02 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .field02 div {
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .field02 input {
+        padding: 10px;
+    }
+
+    .field03 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        width: 95%;
+        align-self: center;
+
+    }
+
+    .field03 div {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .field04 {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px;
+        flex: auto;
+        margin: 10px;
+    }
+
+    .field05 {
+        display: flex;
+        flex-direction: column;
+        padding-right: 400px;
+    }
+
+    #boite01 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #boite01>.parent01 {
+        display: flex;
+        flex-direction: row;
+        width: 45%;
+        justify-content: space-between;
+    }
+
+    #boite01>.parent02 {
+        display: flex;
+        flex-direction: row;
+        width: 45%;
+        justify-content: space-between;
+    }
+
+    #boite02 {
+        margin-top: 0px;
+    }
+
+    #boite02>.parent03 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #boite03 {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #boite03 input {
+        width: 200%;
+    }
+
+    #boite03 input#coucher,
+    #boite03 input#groover,
+    #boite03 input#danser {
+        width: 20px;
+    }
+
+    #boite3>p {
+        margin-bottom: 0px;
+    }
+
+    #boite03>.parent04 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #boite03>.parent05 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #div01 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+
+    #div01 div {
+        width: 42%
+    }
+
+    #div02 {
+        width: 85%;
+    }
+
+    #div03 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #div03 div {
+        width: 42%
+    }
+
+    #div04 {
+        width: 85%;
+        padding-bottom: 30px;
+    }
+
+    .child01 {
+        display: flex;
+        width: 37%;
+    }
+
+    .child02 {
+        display: flex;
+        flex-direction: column;
+        width: 37%;
+    }
+
+    .child03 {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .child04 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .child04 input {
+        width: 55%;
+    }
+
+    .child05 {
+        display: flex;
+        flex-direction: row;
+        width: 25%;
+    }
+
+    .child05>input {
+        padding-right: 85px;
+    }
+
+    .child05>label {
+        font-size: 10px;
+    }
+
+    .parent05 {
+        width: 46%;
+    }
+
+    /* Section pour le bouton range */
+
+    input[type=range]::-webkit-slider-runnable-track {
+        height: 2px;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px #D779A6;
+        background: #D779A6;
+        border-radius: 10px;
+        border: 6px solid #D779A6;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        width: 25px;
+        height: 25px;
+        border: 2px solid #D779A6;
+        border-radius: 50px;
+        background-color: #F5C555;
+        cursor: pointer;
+        margin-top: -16.5px;
+        -webkit-appearance: none;
+    }
+
+    input[type="range"]::-moz-range-track {
+        height: 2px;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px #D779A6;
+        background: #D779A6;
+        border-radius: 10px;
+        border: 6px solid #D779A6;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+        height: 25px;
+        width: 25px;
+        background: #D779A6;
+        border: 2px solid #D779A6;
+        border-radius: 50px;
+        background-color: #F5C555;
+        cursor: pointer;
+        margin-top: -16.5px;
+        -moz-appearance: none;
+    }
+}
