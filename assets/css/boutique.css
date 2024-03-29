@@ -1,0 +1,172 @@
+h2.boutique {
+    text-align: center;
+    color: #f5c555;
+    font-size: 5rem;
+    font-family: 'damion', serif;
+}
+
+h3.boutique {
+    margin: 0 0 0 30px;
+    font-size: 2.5rem;
+    color: #d679a6;
+}
+
+h4.boutique {
+    padding: 50px 0 15px 25px;
+    margin: 0;
+    color: #f5c555;
+}
+
+.btn-ajouter {
+    margin: 10px 0 30px 0;
+    background-color: #f5c555;
+    font: 1.5rem 'Montserrat', sans-serif;
+}
+
+.album {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album-img {
+    width: 250px;
+    margin: 0 0 0 25px;
+}
+
+.album-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.chandail-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.chandail {
+    width: calc(100% / 3 - 20px);
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.prix-chandail {
+    padding: 0 0 0 25px;
+}
+
+.chandail-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.chandail-img {
+    width: auto;
+    margin: 80px 60px 80px 60px;
+
+}
+
+.chandail-img-nllid {
+    width: auto;
+    height: auto;
+    margin: 0 60px 0 60px;
+}
+
+/* Section pour le pop-up */
+
+.popup-overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-overlay--show {
+    display: flex;
+}
+
+.popup-box {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    background-color: #f5c555;
+    padding: 25px;
+}
+
+.popup-box>h2.boutique {
+    padding-top: 40px;
+    padding-left: 25px;
+    text-align: start;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #d679a6;
+}
+
+.popup-box>p {
+    color: white;
+    text-align: left;
+}
+
+.popup-overlay--hidden {
+    display: none;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.popup-overlay__btn--close {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .album-container, .chandail-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .chandail {
+        width: 300px;
+    }
+
+    .chandail-img, .chandail-img-nllid {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
